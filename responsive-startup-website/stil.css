@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none ;
+}
+html {
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+}
+
+header {
+width: 100%;
+height: 70vh;
+background-color: #74C69D;
+}
+nav {
+padding: 1rem;
+height: 80px;
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1;
+background-color: #74C69D;
+}
+nav ul {
+    float: right;
+    margin-right: 2rem;
+}
+nav ul li {
+    display: inline-block;
+    margin: .5rem;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: .7rem 1.2rem;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.checkbtn {
+    font-size: 2rem;
+    color: #fff;
+    float: right;
+    margin-right: 4rem;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+.margin {
+    margin-top: 5.3rem;
+}
+.header-left {
+    padding: 7rem;
+}
+.header-left span {
+    color: #F5F5F5;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+.header-left h3 {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+.header-left p {
+    font-size: .7rem;
+    font-weight: 400;
+    color: #fff;
+}
+.btn{
+    width: 170px;
+    height: 38px;
+    
+}
+.header-right {
+    width:50%;
+}
+.header-right img {
+    width: 100%;
+}
+#partners .container {
+    margin-top: 3rem;
+    text-align: center;
+}
+.baslik-span {
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: .5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #74C69D;
+    text-align: center;
+}
+.baslik-h4 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: .5rem;
+    text-align: center;
+}
+.baslik-p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    text-align: center;
+}
+#partner .row {
+    border: 1px solid black;
+    
+}
+#partners .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners-item {
+    width: 15%;
+    height: 15vh;
+} 
+#partners .partners-item img {
+    width: 100%;
+    height: 15vh;
+}
+#sol-grup {
+  padding:1rem;
+}
+#sol-grup .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#sag-grup {
+    padding:1rem;
+}
+#sag-grup .row {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.info-img {
+    width: 50%;
+}
+.info-img img {
+    width: 90%;
+    padding: 1rem;
+}
+.info {
+    padding: 4rem;
+}
+.info h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+.info p {
+    color:#212529 ;
+    font-size: 1rem;
+    font-weight: 300;
+}
+#team .container {
+    margin-top: 3rem;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.card {
+    width: 20%;
+    padding: 2rem;
+    margin: 1.9rem;
+    box-shadow: 5px 5px 0px 0px rgb(207, 207, 207);
+}
+.card-img {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.card-img {
+    width: 100%;
+    
+} 
+.card-info strong {
+    display: block;
+    padding-top: .5rem;
+    text-align: left;
+}
+.card-info small {
+    display: block;
+    font-size: .6rem;
+    color: gray;
+    text-align: left;
+    position: absolute;
+    bottom: 1rem;
+}
+footer {
+    background-color: #74C69D;
+    padding: 2rem;
+    width: 100%;
+}
+footer img {
+    margin: .5rem;
+}
+footer small {
+    float: right;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    color: #fff;
+}
+
+/*POTFOLİO*/
+#portfolio{
+    margin-top: 2rem;
+    text-align: center;
+}
+.portfolio-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-item {
+    width: 40%;
+    padding: .5rem;
+}
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+#portfolio .btn {
+    margin-top: 1rem;
+} 
+
+/*SERVİCES*/
+#services {
+    margin-top: 2rem;
+    text-align: center;
+}
+#sercives .container{
+    text-align: center;
+}
+#services-container {
+    margin-top: 3rem;
+    text-align: center;
+}
+#services-container .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+#services-container .card {
+    width: 85%;
+    height: 70vh;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 0px 0px rgb(207, 207, 207);
+}
+#services-container .card-header {
+    background-color: white;
+    border: none;
+    padding-bottom: 0;
+}
+#services-container .card-header span{
+    display: block;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#services-container .fiyat {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+#services-container .fiyat strong {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.fiyat small {
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(33, 37, 41, 0.5);
+}
+#services-container .card-header p {
+    color:rgba(33, 37, 41, 0.5);
+    text-align: center;
+    font-size: .9rem;
+}
+#services-container .card-body {
+  padding-bottom: 0;
+}
+#services-container .card-body div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#services-container .card .btn {
+  height: 36px;
+  margin-bottom: .9rem;
+} 
+
+/*CONTACT*/
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+     margin-bottom: 2rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+.form-item label {
+    font-size:1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+.form-item input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid black;;
+    border-radius: 5px;
+}
+.form-item textarea {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form-item .btn {
+    width: 100%;
+}
+
+#contact-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    Sm 576
+    md 768
+    lg 992
+
+*/
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+
+    /*tablet boy*/
+html {
+    font-size: 12px;
+  }
+nav {
+    height: auto;
+  }
+nav .logo{
+    height: 3.5rem;
+}
+nav ul li a {
+    font-size: 1rem;
+}
+.header-left p {
+    font-size: .9rem;
+}
+.header-right img {
+    margin-top: 3rem ;
+    width: 100%;
+}
+.baslik-h4 {
+ 
+    font-size: 2rem;
+    font-weight: 700;
+}
+.btn {
+    width: 60px;
+}
+#partners .btn {
+    width: 90px;
+  }
+
+#sol-grup {
+    margin-top: 3rem;
+    text-align: center;
+}
+#sol-grup .btn {
+    width: 90px;
+}
+#sag-grup {
+    margin-top: 3rem;
+    text-align: center;
+}
+#sag-grup .btn {
+    width: 90px;
+}
+.info-img {
+    order: 1;
+   margin: 0 auto;
+}
+.info {
+    order: 2;
+    padding: 4rem;
+}
+.card {
+    width: 40%;
+}
+#team  .btn {
+    width: 90px;
+}
+.portfolio-item {
+    width: 75%;
+}
+#services-container .card {
+    width: 95%;
+    height: 60vh;
+}
+#services-container .card .btn {
+    width:90px;
+} 
+
+
+@media (max-width:768px) {
+     /*telefon boy*/
+    html {
+        font-size: 11px;
+      }
+    .btn {
+        width: 110px;
+        height: 30px;
+    }
+    nav {
+        height: 66px;
+        padding-top: 1rem;
+      
+    }
+   
+    /*RESPONSİVE MENÜ*/
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 35vh;
+        background-color: #74C69D;
+        top:6rem;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        font-size:1.5rem ;
+        margin: 1rem 0;
+        line-height: 3rem; 
+    }
+    nav ul li a {
+        font-size: 1.2em;
+    }
+    a:hover {
+        background-color: none;
+        color: blue;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    header {
+        height: 70vh;
+    }
+    .header-left {
+        padding:0;
+        order: 2;
+        padding: 1rem;
+    }
+    .partners-item {
+        width: 100%;
+        height: 15vh;
+    } 
+    #partners .partners-item img {
+        width: 25%;
+        height: 15vh;
+    }
+    .info p {
+        font-size: 1.5rem;
+    }
+    .card {
+        width: 65%;
+        height: 45vh;
+        padding: 2rem;
+        margin: 1.9rem;
+        box-shadow: 5px 5px 0px 0px rgb(207, 207, 207);
+    }
+    .portfolio-item {
+        width: 100%;
+      
+    }
+    .portfolio-item img {
+        max-width: 95%;
+        height: auto;
+    }
+    #services-container .card {
+        width: 50%;
+        height: 55vh;
+    }
+    #services-container .card .btn {
+        width:90px;
+    }
+
+    #contact-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+}
